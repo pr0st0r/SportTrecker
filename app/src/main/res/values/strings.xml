@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SportTrecker</string>
+    <string name="fitness_room">Room</string>
+    <string name="download">Download</string>
+</resources>
