@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/room_navigation"
+    app:startDestination="@id/indexFragment" >
+    <fragment
+        android:id="@+id/indexFragment"
+        android:name="ru.prostor.fitnessroom.ui.IndexFragment"
+        android:label="IndexFragment"
+        tools:layout="@layout/index_fragment">
+        <action
+            android:id="@+id/action_indexFragment_to_approachFragment"
+            app:destination="@id/approachFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/approachFragment"
+        android:name="ru.prostor.fitnessroom.ui.ApproachFragment"
+        android:label="ApproachFragment"
+        tools:layout="@layout/approach_fragment"/>
+</navigation>
