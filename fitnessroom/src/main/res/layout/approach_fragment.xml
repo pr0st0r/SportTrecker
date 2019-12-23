@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="59dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Подходы"
+        android:text="Подходов"
         app:layout_constraintBottom_toBottomOf="@+id/approach_minus"
         app:layout_constraintEnd_toStartOf="@+id/approach_minus"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,8 +39,11 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="number"
+        android:textAlignment="center"
+        android:text="0"
         app:layout_constraintEnd_toStartOf="@+id/approach_plus"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="11"/>
 
     <Button
         android:id="@+id/approach_plus"

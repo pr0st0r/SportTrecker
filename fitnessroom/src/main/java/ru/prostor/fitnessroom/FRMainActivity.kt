@@ -22,4 +22,8 @@ class FRMainActivity: AppCompatActivity() {
     fun goApproach(view: View){
         navController.navigate(R.id.approachFragment)
     }
+
+    fun start(view: View){
+
+    }
 }
