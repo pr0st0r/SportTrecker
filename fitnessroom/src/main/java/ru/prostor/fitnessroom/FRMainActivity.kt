@@ -23,7 +23,10 @@ class FRMainActivity: AppCompatActivity() {
         navController.navigate(R.id.approachFragment)
     }
 
+    /**
+     * Переход к процессу
+     */
     fun start(view: View){
-
+        navController.navigate(R.id.startActionFragment)
     }
 }

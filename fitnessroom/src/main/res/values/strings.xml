@@ -2,4 +2,5 @@
 <resources>
     <string name="time">Time</string>
     <string name="approach">Approach</string>
+    <string name="start">Start</string>
 </resources>

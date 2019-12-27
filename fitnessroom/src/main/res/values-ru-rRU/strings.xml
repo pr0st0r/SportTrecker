@@ -2,4 +2,5 @@
 <resources>
     <string name="time">Время</string>
     <string name="approach">Подход</string>
+    <string name="start">Начать</string>
 </resources>

@@ -39,11 +39,11 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="number"
-        android:textAlignment="center"
         android:text="0"
+        android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/approach_plus"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="11"/>
+        tools:text="11" />
 
     <Button
         android:id="@+id/approach_plus"
@@ -54,4 +54,19 @@
         android:background="@drawable/ic_plus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start_action_approach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/start"
+        android:background="@drawable/start_action_button"
+        android:textColor="@color/white"
+        android:onClick="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
